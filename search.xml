@@ -3,6 +3,43 @@
   
     
     <entry>
+      <title><![CDATA[hexo-owl-tag插件测试]]></title>
+      <url>/2017/08/02/owl-tag-demo/</url>
+      <content type="html"><![CDATA[<h2 id="usage"><a href="#usage" class="headerlink" title="usage"></a>usage</h2><p>  这个插件可以支持以下几种视频嵌入，本地及Giphy图片资源的引入。</p>
+<pre><code>       {% owl youtube youtube_id %}
+       {% owl niconico niconico_id [type] %}
+       {% owl bilibili bilibili_id [page] %}
+       {% owl vimeo vimeo_id %}
+       {% owl tudou tudou_id %}
+       {% owl youku youku_id %}
+       {% owl tencent tencent_id %}
+       {% owl ted ted_id [lang] %}
+</code></pre><hr>
+<h4 id="gighy图片"><a href="#gighy图片" class="headerlink" title="gighy图片"></a>gighy图片</h4>  <div class="owl-media owl-image owl-giphy"><img src="https://media.giphy.com/media/BqMusBHZqmMvK/giphy.gif"></div>           
+<hr>
+<h4 id="TED"><a href="#TED" class="headerlink" title="TED"></a>TED</h4><div class="owl-media owl-video owl-ted"><iframe src="https://embed.ted.com/talks/ben_dunlap_talks_about_a_passionate_life" width="640" height="360" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreenframeborder="0" allowfullscreen></iframe>         
+<h4 id="四川的美食"><a href="#四川的美食" class="headerlink" title="四川的美食"></a>四川的美食</h4> <div class="owl-media owl-video owl-bilibili"><embed src="http://static.hdslb.com/miniloader.swf" flashvars="aid=12476692&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" quality="high" allowfullscreen="true"></div>
+<h4 id="风去云不回"><a href="#风去云不回" class="headerlink" title="风去云不回"></a>风去云不回</h4> <div class="owl-media owl-video owl-tencent"><embed src="http://static.video.qq.com/TPout.swf?vid=g0527rsqk4t&auto=0" type="application/x-shockwave-flash" quality="high" allowfullscreen="true" align="middle" allowscriptaccess="always"></div>
+<h4 id="网红"><a href="#网红" class="headerlink" title="网红"></a>网红</h4><div class="owl-media owl-video owl-tudou"><embed src="http://www.tudou.com/v/XMjkyMzQzMjk0MA/&bid=05&resourceId=0_05_05_99/v.swf" allowscriptaccess="always" wmode="opaque" type="application/x-shockwave-flash" quality="high" allowfullscreen="true"></div>
+<h4 id="当爱情经过的时候"><a href="#当爱情经过的时候" class="headerlink" title="当爱情经过的时候"></a>当爱情经过的时候</h4><div class="owl-media owl-video owl-youku"><iframe src="http://player.youku.com/embed/XMjgwNjM5Mjg3Mg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
+</div>]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 插件测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[JavaScript 对象]]></title>
       <url>/2017/08/01/js-object/</url>
       <content type="html"><![CDATA[<p>对象的属性有属性描述符的对象，即使没有直接给出。</p>
@@ -67,27 +104,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>/2017/08/01/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[永远年轻，永远热泪盈眶]]></title>
       <url>/2017/07/26/me/</url>
       <content type="html"><![CDATA[<p>这是我在大学时候无意听见老罗的一句话。从此了解他的一些他的经历：关于摆地摊、求职、背单词、教英语。我仍然记得他说的“尽管没有风，五星红旗依然飘扬在上空”，他大哥看《金瓶梅》被批的故事。我觉得很多东西很有趣。</p>
@@ -95,7 +111,7 @@
 <p>我觉得人活着就要有所追求，不然和咸鱼有什么区别呢？</p>
 <p>人首先要解决生存问题，要挣钱；不然谈不上其它。只是不要丢了自己。我们追求美，我希望活得正直、纯粹，简洁。<br>我想去折腾一些我感兴趣的东西，不断拓宽自己。我希望不因岁月而失去了年轻的心。我想去更多地方看一看。</p>
 <p>我希望：永远年轻，永远热泪盈眶</p>
-]]></content>
+<div class="owl-media owl-video owl-tencent"><embed src="http://static.video.qq.com/TPout.swf?vid=f0532e0hz26&auto=0" type="application/x-shockwave-flash" quality="high" allowfullscreen="true" align="middle" allowscriptaccess="always"></div>]]></content>
       
         <categories>
             
@@ -113,10 +129,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[朴师傅又来了]]></title>
+      <title><![CDATA[还是那个朴树]]></title>
       <url>/2017/07/26/pu-shu/</url>
       <content type="html"><![CDATA[<hr>
-<h2 id="清白之年"><a href="#清白之年" class="headerlink" title="清白之年"></a>清白之年</h2><p><img src="/pu-shu/1.png" alt="清白之年"></p>
+<h2 id="清白之年"><a href="#清白之年" class="headerlink" title="清白之年"></a>清白之年</h2><p> <img src="../../../../../img/liehu.jpg" alt="清白之年"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=487590187&auto=0&height=66"></iframe> 
 
 <p>今天的朴树依然<strong>热爱</strong>美丽又遗憾的世界，<br>憎恶有关虚假不真诚的一切，<br>只是他始终没有逃离生活。        </p>
@@ -124,13 +140,13 @@
 <hr>
 <h3>Baby, До свидания</h3>
 
-<p><img src="/pu-shu/2.jpg" alt="Baby, До свидания"></p>
+<p><img src="../../../../../img/babay.jpg" alt="Baby, До свидания"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=442869386&auto=0&height=66"></iframe>
 
 
 <p>朴树的令人欢喜，在于他的诚恳，对人，对音乐。<br>也在于他的纯粹与个性，只用自己的方式爱这个世界，并用心为这世界创造音乐。<br>谢谢朴树，有你在歌唱，真好。</p>
 <hr>
-<h2 id="那些花儿"><a href="#那些花儿" class="headerlink" title="那些花儿"></a>那些花儿</h2><p><img src="/pu-shu/3.jpg" alt="花儿"></p>
+<h2 id="那些花儿"><a href="#那些花儿" class="headerlink" title="那些花儿"></a>那些花儿</h2><p><img src="/../../../../../img/naxiehua.jpg" alt="花儿"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=139377&auto=0&height=66"></iframe>
 
 <p>在乎的人，重要的事，<br>也能找不到借口地抛之脑后，<br>尽管事后想弥补，打来打去的几个字，<br>想说明自己在乎，<br>却不知能不能是真的传达出去。</p>
@@ -777,8 +793,6 @@ var  b = new foo();
       
         <categories>
             
-            <category> 技术 </category>
-            
             <category> JS </category>
             
         </categories>
@@ -824,18 +838,18 @@ var  b = new foo();
     <entry>
       <title><![CDATA[关于我]]></title>
       <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h1 id="demo-demo-demo"><a href="#demo-demo-demo" class="headerlink" title="demo demo demo"></a>demo demo demo</h1>]]></content>
+      <content type="html"><![CDATA[<p>二十年前的某个春日的某个西南山村，一个男婴呱呱坠地了…</p>
+<p>他开始上学了。学校掩映于田畴之中，这些石头房子是学校租的。上课的时候十里八村的小伙伴们都往这里赶。某天转学回来了同学，说是武校的。那个班主任让他教他们练武，他们就稀里哗啦胡乱比划一通，管他什么动作。这是他们课间日常。放学后他走在乡间小路上，脑子空空啥也不想；或许想一些蚂蚁为什么打架的东西吧。路边的油菜花开了，蜜蜂成群飞舞，迎面是菜花的香。山村屋子上冒着白烟，远处山上一抹残阳。</p>
+<p>他性格内向，好看书。一有时间他就趴着躺着看是书，他享受这个宁静的世界，也享受知识对内心的滋养。小山村晚上的娱乐活动是看电影。那时流行武侠，像侠客行、射雕啦，另外是琼瑶的作品。男孩子们当然看完后得模仿模仿，他们会削木剑然后在田里打斗一番。玩得满身大汗。得等到家长叫吃饭他们才散去。他有时会和父亲一起上山找天麻，跑了很久他一个也没找到；他内心很愉快，喜欢下过雨后的竹林。他有时也会和母亲一起干点活，母亲总是比较坚韧又慈爱的。他还有个弟弟，虽然顽皮但是坚毅，他们度过了人生中那段艰苦又美好的日子。</p>
+<p>夏日，他在家中翻出了一个老式的音乐播放器，尽然能用。然后音乐就走进了他的世界。他凭借着一股刻苦学习的劲儿，在初中也屡次获得点奖金。他虽然歌喉不怎么样，但他热爱音乐。他通常会在周五的下午去买上一盒磁带，然后满足地回家听上很久；他觉得音乐的世界神奇极了。他有段时间迷上了英语口语就拼命的练习，在路上，在天野…甚至在晚上说梦话也是英语。</p>
+<p>大学是他人生中的一个重要节点。在这里，他看了许多书，他看到了许多以前没有看过的东西，想了许多以前没想过的问题。他某段时间特别激进特别忧国忧民，看来还是不成熟。他看了许多记录片，想从中汲取力量；然而许多沉重的东西压得他喘不过气来。他渐渐明白了这句话的分量：世界上只有一种真正的英雄主义，就是认清了生活的真相后还依然热爱它。他与自己达成和解，他变得平和了。他依然热爱音乐，热爱各种美好的东西。他偶然间接触到了吉他，他就学了吉他。虽然弹得不好，他还是很喜欢。他以前连自行车也不会骑。这挡不住他的兴趣，他买了个二手自行车<br>用了一上午的时间学会了骑自行车….</p>
+<p>他上了研，这里他上了许多课结识了许多朋友；他在这段时间疯狂的阅读，他觉得充实。这段时间他对编程产生了兴趣，我知道编程会成为他生命中重要的一部分的。我写了这些文字，我突然意识到我是不看不见后面的，他的人生才开了个头:未来更加值得期待。但我知道他在对真善美的追求，对自我完善的路上会越州越远。</p>
+<audio src="http://music.163.com/#/outchain/2/491295324/" controls="controls"> 您的播放器不自持</audio>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[用图片记录生活]]></title>
       <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[友情链接]]></title>
-      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
@@ -848,6 +862,12 @@ var  b = new foo();
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[友情链接]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
