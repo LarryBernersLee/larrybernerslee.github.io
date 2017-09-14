@@ -6786,6 +6786,12 @@ iframe {
   border: 0
 }
 
+embed {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
 iframe.heightSet {
   overflow: hidden
 }

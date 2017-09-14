@@ -3,9 +3,207 @@
   
     
     <entry>
+      <title><![CDATA[今日畅怀]]></title>
+      <url>/2017/09/14/job/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>温馨提示：打开音乐阅读更佳喔</p>
+<h3 id="开胃菜"><a href="#开胃菜" class="headerlink" title="开胃菜"></a>开胃菜</h3><p>没有什么能够阻挡，我对自由的向往！<br>既自以心为形役，奚惆怅而独悲？我想最重要的大抵是意志的自由吧。</p>
+<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "蓝莲花",
+					author: "许巍",
+					url: "../../../../../media/许巍 - 蓝莲花.mp3",
+					pic: "../../../../../img/lanlianhua.jpg",
+				}
+			});
+		</script>
+<h3 id="说说找工作"><a href="#说说找工作" class="headerlink" title="说说找工作"></a>说说找工作</h3><p>时间还真是过得有点快。我刚进校的时候寝室的学长们正在找工作，现在轮到我了，恍如昨日。我不禁想起了《匆匆》。</p>
+<p>找工作要先投简历，然后是各种的在线测评，有测编程的（这个是必须，程序员不测这个测什么）；有测性格的，本来也是无可厚非，就像找女朋友也得互相了解嘛。<br>不过有些测评是王二娘的裹脚–又长又臭，嘿你还得选；比如你得从每个都很消极没一个符合你的选项中选出一个来，这样真有意义吗?你当然可以不填，但是你得找工作，所以你必须选。企业当然是想找能干活的人，不过就这么赤裸裸的展示出企业内部的所谓文化真的好吗?</p>
+<p>以上是吐槽，不过谁叫我没有工作呢，该投的简历还得投，该做的测评还得做。虽说做了也不一定有结果，但是还得做。我觉得找工作就像找女朋友，还得看缘分。</p>
+<p>我曾听过学校中诸如赵小龙、姚欣等学长的故事，也曾幻想着自己某一天也会成为那样的人。现在看来，我只不过是个普普通通的我，这是事实。我丝毫不会因此而不安了，因为我就是我，他们有他们的传奇，我有我的人生。</p>
+<h3 id="说说我对未来的看法"><a href="#说说我对未来的看法" class="headerlink" title="说说我对未来的看法"></a>说说我对未来的看法</h3><p>未来必定会超乎我的想象，这个世界变化太快，太精彩了。我出生的时候村里还没有电话，电视机还很少，有也是黑白的。上小学的时候零星有人用手机，那时的他们还故意将手机别在腰间，生怕别人看不见。现在小学生都在用手机，可能性能比阿波罗登月时的计算机的计算能力还要好。比起缅怀过去，我更愿意拥抱未来。</p>
+<p>现在流行词汇是大数据、云计算、人工智能…<br>可是我们的对未来的想象或许好太局限，我们并无法预见那翻天覆地的变化，然而这是生活给我们的惊喜。</p>
+<p>我期望着在不远的未来万物互联，万物智能，彻底打通人与物、物与物的连接。这是一个多大的市场，这里面有多大的机遇，有多少的变革。更重要的是，这对生产力的促进有多大。有句话不是说世界最遥远的距离是红绿灯和摄像头的距离，它们都站在路口，但却从未交流过。我想某一天人类会专注于创造性的工作，彻底从繁重的劳动中解放。这不就是共产主义吗，有意思。</p>
+<p>说回现实。在一段时间，该干的事情还是有认认真真做好。力求精益求精。一件事要么不干，要么就把事情尽力做到最好。因为我个人的起点低，意味着我有很大的进步空间为没有什么牵绊，我可以大胆往前探索，看看我能走多远。嗯，听着蓝莲花还真是有点激情。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 工作 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>/2017/08/04/demo/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+ <script>
+     window.onload = function () {
+         function add (a,b,c) {
+            arguments[1] = 1;
+            console.log(a,b,c);
+         }
+         add(2,3);
+     }
+ </script>
+<link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<body>
+ test part
+</body>
+</html>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[基础知识]]></title>
+      <url>/2017/08/04/basic/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="typeof操作符"><a href="#typeof操作符" class="headerlink" title="typeof操作符"></a>typeof操作符</h3><p> 函数虽是对象返回”function”,null返回“object”。<br> 可对未申明的变量使用却不会报错，返回“undefined”。</p>
+<h3 id="Undefined"><a href="#Undefined" class="headerlink" title="Undefined"></a>Undefined</h3><p>值仅有undefined表示对象声明后未初始化，null == undefined</p>
+<h3 id="Null"><a href="#Null" class="headerlink" title="Null"></a>Null</h3><p>值仅有null。空对象指针，若一个变量将来用于放对象就要先设为null,以后检查是否已放对象。</p>
+<h3 id="Boolean"><a href="#Boolean" class="headerlink" title="Boolean"></a>Boolean</h3><p>值是：true/false。各种数据类型值都可以转换为布尔值，转换使用Boolean()函数。流控制语句隐式调用该函数做转换以确定执行方式。<br>Object\Symbol对应的布尔值永远是true。</p>
+<h3 id="Number"><a href="#Number" class="headerlink" title="Number"></a>Number</h3><p>只有这一种类型，包含数字、NaN、Infinity.可使用科学计算法。字面量有十进制、八进制(0开头，严格模式失效)、16进制。计算转为十进制计算。存在舍入误差，<br>从而不要测试浮点数的值。</p>
+<p>范围：Number.MAX_VALUE Num.MIN_VALUE。isFinite()来确定是否在范围之中。</p>
+<p>NaN：1、涉及后均返回NaN 2、任何值与之不相等，包括自身。isNaN()函数先对传入的值使用Number()转型，转为数字是false,是NaN为true.</p>
+<p>对象的valueOf没重写下为本身，toString()方法Array类型是逗号接字符串，对象是”[object Object]”。</p>
+<p>Number()不支持八进制字符串转换，parseInt（）可以指定基数，parseFloat()只解析十进制。 </p>
+<h3 id="String"><a href="#String" class="headerlink" title="String"></a>String</h3><p>由16位的Unicode字符系列组成，有时需要转义。null、undefined无toString方法，因为没有原型链。可用String()转型（有toSttring()先用，然后补充null和undefined这两个特殊值）</p>
+<p>Boolean()\Number()\String()可做显式的转型函数。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> JS高级程序设计 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 基础语法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[BOM]]></title>
+      <url>/2017/08/03/bom/</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>JS由ECMAScript、DOM、BOM,在浏览器中BOM是核心。以前BOM并无标准，基于浏览器之间的互操作性，存在许多共通的地方。</p>
+<h2 id="window-对象"><a href="#window-对象" class="headerlink" title="window 对象"></a>window 对象</h2><p>window对象既是js操作浏览器的接口，也是全局对象。它有许多好用的函数：parseInt()、parseFloat()、setTimeout()、setInterval()<br>getComputedStyle()、encodeURIComponent()、decodeURIComponent()、alert()、confirm()、prompt()、isFinite()、isNaN()等方法可以在页面中直接使用。</p>
+<h3 id="全局作用域"><a href="#全局作用域" class="headerlink" title="全局作用域"></a>全局作用域</h3><p>严格模式下函数调用方式的this为undefined,非严格模式下是window。页面中定义的全局的函数、变量等直接作为window的属性，但是[[configurable]]=false<br>也就是说不能直接用<code>delete window.x</code>的方式删除。而直接设定的window属性可以删除。若未申明变量就引用会报错，但是不存在的属性通过window的方式就<br>返回undefined。</p>
+<p>window对象有document\location\history\navigator\screen等属性。windows mobil平台IE不支持直接在window对象中添加属性。</p>
+<h3 id="窗口关系及框架"><a href="#窗口关系及框架" class="headerlink" title="窗口关系及框架"></a>窗口关系及框架</h3><p>每个窗口、框架、或是打开的标签都拥有window对象，且对象之间是相互独立的。框架层次上有self、parent、top。最外层的window对象可用框架集frames用<br>索引或是框架名称的方式访问框架。框架集中含有的<frame src=" " name="">其中的name属性值可以是<a>target中值，从而在哪个框架中打开。window对象<br>有许多层次,如：window.parent.parent.frames可以到top的框架集。由于不同框架之间的window对象互不相关，所以在框架间传递的对象使用instanceof方法存在问题。<br>instanceof方法在自身的window对象下的原型链中实施。</a></p>
+<h3 id="窗口位置。"><a href="#窗口位置。" class="headerlink" title="窗口位置。"></a>窗口位置。</h3><ol>
+<li>window.screenLeft/window.screenTop 除firefox均支持</li>
+<li>window.screenX/window.screenY firefox等的方式。</li>
+</ol>
+<p>以上两种方式不同浏览器在计算上有所不同。最终的结果就是无法跨浏览器或的浏览器窗口左上角的位置。但是moveTo()、moveBy()可以在弹窗中移动位置，而<br>主要的窗口却会被禁。</p>
+<h3 id="窗口大小"><a href="#窗口大小" class="headerlink" title="窗口大小"></a>窗口大小</h3><p>window.outterHeight和window.outterWidth在浏览器上存在差异，chrome的window.innerWidth与window.outterWidth同。无法跨浏览器获得窗口大小。但可以获得页面视口大小。<br>可用resizeTo()、resizeBy()调整，但是可能被禁。</p>
+<pre><code>            var pagewidth = window.innerWidth, pageheight = window.innerHeight;
+                    if (typeof pagewidth !== &quot;number&quot;) {
+                    if (document.compatMode == &quot;CSS1Compat&quot;) {
+                    pagewidth = document.documentElement.clientWidth;
+                    pageheight = document.documentElement.clientHeight;
+             } else {
+            pagewidth =  document.body.clientWidth;
+            pageheight =  document.body.clientHeight;
+                 }
+            }
+</code></pre><p>在移动端上:</p>
+<pre><code>       可见视口：
+         var width = window.innerWidth;     
+         var height = window.innerHeight;
+      IE:
+        var width = document.documentElement.clientWidth; 
+        var height = document.documentElement.clientHeight;
+
+     布局视口：
+        var width = document.documentElement.clientWidth;；     
+        var height = document.documentElement.clientHeight;
+      IE:
+         pagewidth =  document.body.clientWidth;
+         pageheight =  document.body.clientHeight;
+</code></pre><h3 id="导航和打开窗口"><a href="#导航和打开窗口" class="headerlink" title="导航和打开窗口"></a>导航和打开窗口</h3><p>window.open(url,name,feature,boolean);在不打开窗口下，boolean表示是否取代当前的历史记录。window.open返回指向新窗口对象的引用。含有opener和<br>closed属性。opener指向打开它的对象。</p>
+<p>安全限制：存在浏览器内置程序或是插件阻止弹窗插件阻止返回null,插件阻住可能抛出错误。</p>
+<pre><code> var blocked = false;
+try {
+ var a = window.open(&quot;http://example.com&quot;);
+ if (a == null) {
+ blocked = true
+   }
+ }  catch (err) {
+       blocked = true;
+ } 
+</code></pre><h3 id="间歇调用和超时调用"><a href="#间歇调用和超时调用" class="headerlink" title="间歇调用和超时调用"></a>间歇调用和超时调用</h3><p>   二者均有唯一ID可结束执行，推荐用setTimeout()模拟setInterval();setInterval()可能在前个调用未完成时就开始了。两个函数的第一个参数不推荐用字符串。</p>
+<h3 id="系统对话框"><a href="#系统对话框" class="headerlink" title="系统对话框"></a>系统对话框</h3><p> window.alert()\confirm()返回布尔值\prompt()返回null或是字符串。它们是同步模态的。一次操作打开两个以上的对话框会在第二个后有复选框来确认后需屏蔽。<br> 空闲时会将对话框计数器清零。</p>
+<h2 id="location对象"><a href="#location对象" class="headerlink" title="location对象"></a>location对象</h2><p>用于获得文件信息或是url信息，有：protocol、search、href、host、hostname、pathname、hash、port。       </p>
+<p>提取查询字符串信息：<br>      function querysearch () {<br>         var qs = (location.search.length &gt; 0 ) : location.search.substring(1) : “”;<br>         var args = {};<br>         var name.value,len,item,con;<br>         var items = qs.split(“&amp;”);<br>         len = items.length;<br>         for (var i = 0; i &lt; len;i ++) {<br>         con = items[i].split(“=””);<br>         name = con[0].value = con[1];<br>          if (name &amp;&amp; args[name] == undefined) {<br>              args[name] = value;<br>             }<br>            }<br>         return args;<br>         }</p>
+<p>  通过location.href可以到另一页面，但是有历史记录。可使用location.replace()。这样就不会有记录。location.reload()重新加载。</p>
+<h2 id="navagator"><a href="#navagator" class="headerlink" title="navagator"></a>navagator</h2><p> 用于了解浏览器的信息。</p>
+<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><p>  navigator.plugins是个集合，含有refresh（）方法，反映最新安装插件情况，可选布尔值来说明是否要刷新页面。<br>  每项有name\description\filename\length.</p>
+<pre><code>  function hasPlugin (name) {
+    name = name.toLowerCase();
+    for (var i =0 ; i &lt; navigator.plugins.length; i++) {
+       if (navigator.plugins[i].name.toLowerCase().indexOf(name) !== -1) {
+          return true;
+        }
+      } 
+     return false; 
+  }
+
+  IE浏览器： name为COM标识
+  function hasIEPlugins (name) {
+     try {
+          new ActiveXObject(name);
+          return true; 
+     } catch (err) {
+          return false;
+       }
+  }
+</code></pre><h3 id="注册处理程序"><a href="#注册处理程序" class="headerlink" title="注册处理程序"></a>注册处理程序</h3><p>navigator.registerContentHandler()/navigator.registerProtocolHandler(),支持3种MIME类型。 </p>
+<h2 id="screen-对象"><a href="#screen-对象" class="headerlink" title="screen 对象"></a>screen 对象</h2><p>有用的是其中的screen.availWidth和屏幕大小的screen.width的像素值。</p>
+<h2 id="history对象"><a href="#history对象" class="headerlink" title="history对象"></a>history对象</h2><p>每个window对象含有history属性，保存实际的浏览历史记录。但是不能获得浏览过的URL,可以通过go()\back()\forward()方式实现改动。<br>history.go()的负数值表示后退.其中的length表示记录数，第一次进入值为0.            </p>
+]]></content>
+      
+        <categories>
+            
+            <category> JS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> BOM </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[hexo-owl-tag插件测试]]></title>
       <url>/2017/08/02/owl-tag-demo/</url>
-      <content type="html"><![CDATA[<h2 id="usage"><a href="#usage" class="headerlink" title="usage"></a>usage</h2><p>  这个插件可以支持以下几种视频嵌入，本地及Giphy图片资源的引入。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="usage"><a href="#usage" class="headerlink" title="usage"></a>usage</h2><p>  这个插件可以支持以下几种视频嵌入，本地及Giphy图片资源的引入。</p>
 <pre><code>       {% owl youtube youtube_id %}
        {% owl niconico niconico_id [type] %}
        {% owl bilibili bilibili_id [page] %}
@@ -42,7 +240,7 @@
     <entry>
       <title><![CDATA[JavaScript 对象]]></title>
       <url>/2017/08/01/js-object/</url>
-      <content type="html"><![CDATA[<p>对象的属性有属性描述符的对象，即使没有直接给出。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>对象的属性有属性描述符的对象，即使没有直接给出。</p>
 <pre><code>       var obj = {
               name: &#39;objcet&#39;
        };
@@ -106,7 +304,7 @@
     <entry>
       <title><![CDATA[永远年轻，永远热泪盈眶]]></title>
       <url>/2017/07/26/me/</url>
-      <content type="html"><![CDATA[<p>这是我在大学时候无意听见老罗的一句话。从此了解他的一些他的经历：关于摆地摊、求职、背单词、教英语。我仍然记得他说的“尽管没有风，五星红旗依然飘扬在上空”，他大哥看《金瓶梅》被批的故事。我觉得很多东西很有趣。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>这是我在大学时候无意听见老罗的一句话。从此了解他的一些他的经历：关于摆地摊、求职、背单词、教英语。我仍然记得他说的“尽管没有风，五星红旗依然飘扬在上空”，他大哥看《金瓶梅》被批的故事。我觉得很多东西很有趣。</p>
 <p>后来我迷上了乐器，学了葫芦丝、口琴，可惜都不精。不过这有啥关系，我又不是音乐家；享受音乐的乐趣就行了。<br>一次，我到一哥们宿舍串门借了他吉他来玩儿。从此我迷上了吉他。我了解了Tommy Emmanuel、小松原俊、岸部真明，特别是pierre Bensusan。我知道了国内的高君以及许岑。我觉得音乐就是一剂安慰剂。</p>
 <p>我觉得人活着就要有所追求，不然和咸鱼有什么区别呢？</p>
 <p>人首先要解决生存问题，要挣钱；不然谈不上其它。只是不要丢了自己。我们追求美，我希望活得正直、纯粹，简洁。<br>我想去折腾一些我感兴趣的东西，不断拓宽自己。我希望不因岁月而失去了年轻的心。我想去更多地方看一看。</p>
@@ -131,7 +329,7 @@
     <entry>
       <title><![CDATA[还是那个朴树]]></title>
       <url>/2017/07/26/pu-shu/</url>
-      <content type="html"><![CDATA[<hr>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><hr>
 <h2 id="清白之年"><a href="#清白之年" class="headerlink" title="清白之年"></a>清白之年</h2><p> <img src="../../../../../img/liehu.jpg" alt="清白之年"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=487590187&auto=0&height=66"></iframe> 
 
@@ -173,7 +371,7 @@
     <entry>
       <title><![CDATA[面朝大海，春暖花开]]></title>
       <url>/2017/07/26/haizi/</url>
-      <content type="html"><![CDATA[<p> 从明天起，做一个幸福的人<br> 喂马、劈柴，周游世界<br> 从明天起，关心粮食和蔬菜<br> 我有一所房子，面朝大海，春暖花开  </p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p> 从明天起，做一个幸福的人<br> 喂马、劈柴，周游世界<br> 从明天起，关心粮食和蔬菜<br> 我有一所房子，面朝大海，春暖花开  </p>
 <p> 从明天起，和每一个亲人通信<br> 告诉他们我的幸福<br> 那幸福的闪电告诉我的<br> 我将告诉每一个人  </p>
 <p> 给每一条河每一座山取一个温暖的名字<br> 陌生人，我也为你祝福<br> 愿你有一个灿烂的前程<br> 愿你有情人终成眷属<br> 愿你在尘世获得幸福<br> 我只愿面朝大海，春暖花开</p>
 ]]></content>
@@ -196,7 +394,7 @@
     <entry>
       <title><![CDATA[css层叠]]></title>
       <url>/2016/11/30/css-cascade/</url>
-      <content type="html"><![CDATA[<p>css通过建立与文档的关联而实施效果。文档结构重要性不言而喻，对于建立良好的内容索引、提高可维护性、较好的可访问性；另，利于css选择器选择、继承机制。 概要地讲,层叠机制是处理对文档上应用样式时解决该应用何种样式的解决方案,涉及到重要性、特殊性、来源、顺序的问题。下面分别说明。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>css通过建立与文档的关联而实施效果。文档结构重要性不言而喻，对于建立良好的内容索引、提高可维护性、较好的可访问性；另，利于css选择器选择、继承机制。 概要地讲,层叠机制是处理对文档上应用样式时解决该应用何种样式的解决方案,涉及到重要性、特殊性、来源、顺序的问题。下面分别说明。</p>
 <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p> 每条声明都是有特殊性的,其特殊性由选择器组件确定。用户代理会将特殊性赋予给每条声明。由于存在选择器分组和声明分组的情况，用户代理会将它们解组出来的。然后对应个元素可能会有多条规则。这时，若都是针对相同的属性，那使用何种规则呢？这是层叠机制解决的问题。</p>
 <h2 id="特殊性"><a href="#特殊性" class="headerlink" title="特殊性"></a>特殊性</h2><p>  特殊性值结构:x,x,x,x。x代表一个自然数。左边比右边的值大。1、内联样式的特殊性为1,0,0,0，其他首位为0。 2、id特殊性为0, 1，0，0。3、伪类、类、属性选择的特殊性为0,0,1,0。4、元素、伪元素特殊性为0,0,0,1。5、继承没有特殊性。结合符没有特殊性。通配符特殊性为0,0,0,0。使用上，当重要性、来源相同条件相同时，特殊性大的获胜。</p>
 <h2 id="重要性"><a href="#重要性" class="headerlink" title="重要性"></a>重要性</h2><p>重要性真的重要,使用上将!important置于”;”前面就可以了，注意是关键词的最后。用户代理将重要性的分在一组,普通的分在一组,声明冲突时,重要性的占上风。但是重要性不会改变特殊性;就是说重要性分组中出现冲突后,按特殊性来。当然还要考虑来源，一般在权重上是创作人员&gt;用户&gt;用户代理。结合起来权重的顺序是：用户重要声明、创作人员重要声明、创作人员普通声明、用户的普通声明、代理的默认声明。</p>
@@ -229,7 +427,7 @@
     <entry>
       <title><![CDATA[poem:reserved words]]></title>
       <url>/2016/10/31/poem-reserved/</url>
-      <content type="html"><![CDATA[<p>Let this long package float,</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>Let this long package float,</p>
 <p>Goto private class if short.</p>
 <p>While protected with debugger case,</p>
 <p>Continue volatile interface.</p>
@@ -263,7 +461,7 @@
     <entry>
       <title><![CDATA[JS 赋值的问题]]></title>
       <url>/2016/10/28/assignment/</url>
-      <content type="html"><![CDATA[<p> 根据值的类型是基本类型值还是复杂类型的值在传递时会有不同。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p> 根据值的类型是基本类型值还是复杂类型的值在传递时会有不同。</p>
 <p> JS函数的参数传递是按值传递，基本类型值传递的是副本，复杂类型值传递的是引用。从而会影响原来的值，不会改变原来的复制前的引用。</p>
 <pre><code>       function foo (x) {
             x += 1;
@@ -307,7 +505,7 @@
     <entry>
       <title><![CDATA[THIS]]></title>
       <url>/2016/10/24/this/</url>
-      <content type="html"><![CDATA[<p>  我给自己总结一下，this。“this“是一种动态灵活的机制。它在函数调用时确定，与调用方式有关，而非词法作用域。我这里使用DC的说法对应的另一种说法。即函数的this绑定分为隐式绑定、显式绑定、默认绑定、new绑定。下分别说明：</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>  我给自己总结一下，this。“this“是一种动态灵活的机制。它在函数调用时确定，与调用方式有关，而非词法作用域。我这里使用DC的说法对应的另一种说法。即函数的this绑定分为隐式绑定、显式绑定、默认绑定、new绑定。下分别说明：</p>
 <h2 id="默认绑定"><a href="#默认绑定" class="headerlink" title="默认绑定"></a>默认绑定</h2><p>  就是不加任何修饰的使用函数。 this在非严格模式下绑定在window上，严格模式下绑定于undefined。当然这要在函数体中使用”use strict”;才管用。</p>
 <pre><code>       var  foo = function () {
               console.log(this.a); //global
@@ -415,7 +613,7 @@
     <entry>
       <title><![CDATA[作用域]]></title>
       <url>/2016/10/16/domain/</url>
-      <content type="html"><![CDATA[<h2 id="section-1"><a href="#section-1" class="headerlink" title="section 1"></a>section 1</h2><p>JS会在执行之前编译，并采取相应优化例如JIT优化；编译分为分词、语法分析、代码生成过程。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="section-1"><a href="#section-1" class="headerlink" title="section 1"></a>section 1</h2><p>JS会在执行之前编译，并采取相应优化例如JIT优化；编译分为分词、语法分析、代码生成过程。</p>
 <p>作用域是关于变量（或是标识符）去何处查询以及如何查询的一套规则。分为RHS、LHS查询、RHS找到对应位置且要返回值，LHS查询会找到对应的空间。LHS在非严格模式下在无法找到的情况下在全局对象中建立变量且返回，严格模式下会出错“Reference&amp;nbsp:Error”。简而言之，reference&nbsp;error是作用域判别失败，typeerror是作用域判别成功但是执行操作不当。</p>
 <p>作用域包括函数作用域、块级作用域。利用函数作用域可以用来隐藏信息，避免命名冲突（可以为一个编译单元使用一个统一的命名空间，可以使用模块的方式）。但是用函数来封装的问题是什么呢？第一，它会污染作用域；其次，还要显示的调用。那就可以使用IIFE了。</p>
 <ol>
@@ -471,7 +669,7 @@
     <entry>
       <title><![CDATA[JS语言精粹读后体会]]></title>
       <url>/2016/09/07/JS-goodparts/</url>
-      <content type="html"><![CDATA[<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>先说说JS是容易被误解的语言的观点。从名字上来看，”Java”这似乎暗示着这门语言与Java的关系；好像这门语言是Java的子集，或比Java弱。但实际与Java并无关系，如果说非要有关系，那可以说说一点八卦。当年Netscape确实为了让它快速发展，与Sun公司有过合作；其中为了借大热的Java东风，改名Javascript(原来叫做Livescript).JS第一版仅仅用了10天，未经打磨就广泛使用至今(什么是”网红”，这才是”网红”)。JS不可避免的有许多设计失误，比如全局变量的设计模式。标准的出现是晚于JS的，而且标准也并不”标准”，这导致了许多滥用。由于JS通常是用在web的，从而被认为只能用于浏览器，但它却可以用在服务器等地方的。它的语法类C，但实际上是”披着C外衣的Lisp”，是一种面向对象的函数式编程语言。与传统的面向对象的语言相比，它不是基于类的继承，而是基于原型的继承。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>先说说JS是容易被误解的语言的观点。从名字上来看，”Java”这似乎暗示着这门语言与Java的关系；好像这门语言是Java的子集，或比Java弱。但实际与Java并无关系，如果说非要有关系，那可以说说一点八卦。当年Netscape确实为了让它快速发展，与Sun公司有过合作；其中为了借大热的Java东风，改名Javascript(原来叫做Livescript).JS第一版仅仅用了10天，未经打磨就广泛使用至今(什么是”网红”，这才是”网红”)。JS不可避免的有许多设计失误，比如全局变量的设计模式。标准的出现是晚于JS的，而且标准也并不”标准”，这导致了许多滥用。由于JS通常是用在web的，从而被认为只能用于浏览器，但它却可以用在服务器等地方的。它的语法类C，但实际上是”披着C外衣的Lisp”，是一种面向对象的函数式编程语言。与传统的面向对象的语言相比，它不是基于类的继承，而是基于原型的继承。</p>
 <p>公司是不会让人使用语言的每个特性的，我们要使用那部分最可靠、可维护、方便阅读的成熟的子集。</p>
 <p>为什么要使用JS？一方面是没有选择；另一方面是这门语言本身有 它自身的优雅、灵活的地方，具有极强的表达能力。</p>
 <p> DC认为JS有许多优秀的想法：函数、弱类型、动态对象、字面量的对象表示法。糟糕的想法是：基于全局变量的编程模式。JS是披着C外衣的Lisp(基于lambda演算的语言，与人工智能极为相关)。<br> 强类型语言可以在编译阶段找到程序的类型错误，弱类型做不到；但通常类型错误不是最主要的问题。弱类型可以让人不必疲于应对造型系统。<br> 对象的字面量表示法很好用，DC也借鉴到了JSON中作为一种代替XML通信的数据传输格式。JS的连接单元是基于全局变量的。编译单元的顶级变量会到全局对象这个公共命名空间。</p>
@@ -626,7 +824,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[DOM简介]]></title>
       <url>/2016/08/27/dom-info/</url>
-      <content type="html"><![CDATA[<p>DOM是现在按W3C标准的浏览器均实现的标准。HTML、CSS、DOM共同在结构、表现、交互上共同支撑起一个页面。当然，必须以用户为中心、平稳退化、逐渐增强。DOM的操作是通过JS来实现的。JS最初在NN2中使用，在1997年以JS1.0为基础提交给ECMA,1998年提交到ISO/IEC。CSS1出现于1996年，规范有68页；1998年有了CSS2，规范有480页，实际并无CSS3的定义，通常指CSS level3规范以及新的第一版的某些模板规范，如同HTML5一样随着技术的迅速发展以后再划分代次并不合适。DOM1级产生于1998年。JS的迅速发展与2005年兴起的AJAX关系很大，又得益于google的v8引擎，使得js在服务器端的node.js迅速发展。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>DOM是现在按W3C标准的浏览器均实现的标准。HTML、CSS、DOM共同在结构、表现、交互上共同支撑起一个页面。当然，必须以用户为中心、平稳退化、逐渐增强。DOM的操作是通过JS来实现的。JS最初在NN2中使用，在1997年以JS1.0为基础提交给ECMA,1998年提交到ISO/IEC。CSS1出现于1996年，规范有68页；1998年有了CSS2，规范有480页，实际并无CSS3的定义，通常指CSS level3规范以及新的第一版的某些模板规范，如同HTML5一样随着技术的迅速发展以后再划分代次并不合适。DOM1级产生于1998年。JS的迅速发展与2005年兴起的AJAX关系很大，又得益于google的v8引擎，使得js在服务器端的node.js迅速发展。</p>
 <p>DOM是一种与平台、语言无关的API,是在该领域的约定就如同化学界的符号一样；可以通过一种编程语言对另一种标记语言的文档进行修改、删除、查询等操作。在1998年产生DOM1级前，就有实验性的DOM。IE4 NN4的DHTML概念很好，但是实现起来差异很大，简直是灾难。浏览器大战微软在其操作系统中捆绑IE而战胜NN。实际上NN的接班人是公益性质的firefox。2003年的safari以及chrome广泛使用的android的webkit引擎，firefox的Gecko引擎、Opera(原先是Prosto、后来是webkit)使得微软专有的Trident专有引擎向规范靠齐有了效果。IE9之后微软在这方面做得不错。</p>
 <p>在操作DOM时，注意应当解析完了之后去用JS改变、查询；否则，这是一个不完整的DOM或许完不成应有的功能。window.onload = function () {do something;};</p>
 ]]></content>
@@ -649,7 +847,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[关于css的若干心得]]></title>
       <url>/2016/08/26/css-think/</url>
-      <content type="html"><![CDATA[<p> css布局中定位机制主要是普通的流，也就是说按照HTML文本的顺序在窗口上从上到下、从左到右去显示，遇见块级元素就换行显示。为了更进一步的控制，我可以使用相对定位、绝对定位、固定定位以及浮动。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p> css布局中定位机制主要是普通的流，也就是说按照HTML文本的顺序在窗口上从上到下、从左到右去显示，遇见块级元素就换行显示。为了更进一步的控制，我可以使用相对定位、绝对定位、固定定位以及浮动。</p>
 <p> <strong>相对定位</strong>（position:relative）是相对于自身而言的，但会在原来的地方留出空白，所以不会影响后序的流；可能出现这个元素覆盖到其他元素上的情况发生。百分数表示的宽度相对于父元素的宽度而言的。</p>
 <p> <strong>绝对定位</strong>(position:absolute)会让该元素从流中去掉，其他元素不会再看见它，可以产生覆盖的效果；其定位是相对于离它最近的的非普通流的父元素（position非static）的左上角，否则一直到原始的盒子可能是body。其百分数表示的宽度是源自于其定位元素的宽度的。通常在父元素中使用position:relative;子元素中使用position:absolute;</p>
 <p> <strong>固定定位</strong>(position:fixed):这种定位是相对于浏览器窗口的，百分数表示的宽度也是相对于浏览器窗口的。该元素会从普通流中移除。</p>
@@ -684,7 +882,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[css选择器]]></title>
       <url>/2016/08/20/css-selector/</url>
-      <content type="html"><![CDATA[<p>CSS（Cascading Style Sheet）通过与HTML元素的关联来改变元素的显示效果，这种实现是通过建立CSS规则来实现的。一条CSS规则包括：选择器+声明。如： p {font-family:Times,serif;}.P是选择器，花括号中是声明；声明包括属性与值。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>CSS（Cascading Style Sheet）通过与HTML元素的关联来改变元素的显示效果，这种实现是通过建立CSS规则来实现的。一条CSS规则包括：选择器+声明。如： p {font-family:Times,serif;}.P是选择器，花括号中是声明；声明包括属性与值。</p>
 <blockquote>
 <p>有以下几种类型：</p>
 <ol>
@@ -720,7 +918,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[JS简要说明]]></title>
       <url>/2016/08/10/JS-intro/</url>
-      <content type="html"><![CDATA[<h2 id="JS趣谈"><a href="#JS趣谈" class="headerlink" title="JS趣谈"></a>JS趣谈</h2><p>JavaScript是一门最易让人误解的语言，该语言中精华与糟粕并存（可能比一般语言的这个比例要大一些）；但“千淘万漉虽辛苦，吹尽黄沙始到金”，层层面纱下是易用灵活、优雅轻灵的内在。很久以前，JavaScript被当做是玩具语言，直到AJAX的出现，直到V8引擎的易用；这种局面已经改变。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h2 id="JS趣谈"><a href="#JS趣谈" class="headerlink" title="JS趣谈"></a>JS趣谈</h2><p>JavaScript是一门最易让人误解的语言，该语言中精华与糟粕并存（可能比一般语言的这个比例要大一些）；但“千淘万漉虽辛苦，吹尽黄沙始到金”，层层面纱下是易用灵活、优雅轻灵的内在。很久以前，JavaScript被当做是玩具语言，直到AJAX的出现，直到V8引擎的易用；这种局面已经改变。</p>
 <p>JavaScript诞生于1995年（那时我还很小）；一个叫Brendan Eich的人设计了这种语言。他就职于Netscape公司，他说服了老总要开发这种语言。然而仅用了10天，10天。这门语言最初是用于解决服务器端语言（Perl等）要处理的表单验证操作。为什么呢？在通过“猫”（modem）拨号上网的年代，网速只有28.8kbit/s啊。你填一个表格之类的若填错了或填写的没填，你提交数据就只有等着吧，等了半天啥也干不了；可能最悲催的是你可能受到一个通知，你填的不对啊（心里一万匹草泥马奔过）。这里可见在客户端能验证一下多有用了吧。</p>
 <p>JavaScript与Java的关系如同“雷锋”与“雷峰塔”。要说有关系，那就是炒作关系。当年Netscape与Sun(Sun与Java关系那叫一个紧密)何种开发了JavaScript，当时Java正炒得热，那就将其命名为JavaScript吧。JavaScript从诞生就迅速被接受，没有经过实验室的严格测试，加之完成的时间短，语言本身问题很多。1996年，NN4 中推出了JS1.1版本，而IE3虽有VBScript，但支持了JScript(但是逆向的JS1.0)。因为没有事实的标准，这二者之间很多地方并不一致。1997年，一个基于JS1.1的方案提交给了ECMA，ECMA让TC#39负责实现一种供应商中立、通用、跨平台的脚本语言的语法、语义。TC#39给了ECMA-262标准（针对ECMAScript）。1998，ISO/IEC接受了这个标准。</p>
 <p>ECMAScript未定义语言的I/O,故可以以它为核心扩展。JavaScript只是其中一种，还用Adobe ActionScript等等，服务器端还有Node。JavaScript包括：ECMAScript、DOM、BOM。</p>
@@ -756,7 +954,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[JS原型链的一点看法]]></title>
       <url>/2016/07/30/JS-prototype/</url>
-      <content type="html"><![CDATA[<p>JavaScript借鉴了许多语言的特点例如语法类Java、函数借鉴Scheme、原型继承借鉴自Self、<br>正则表达式借鉴于Perl。（DC Javascript：语言精粹。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>JavaScript借鉴了许多语言的特点例如语法类Java、函数借鉴Scheme、原型继承借鉴自Self、<br>正则表达式借鉴于Perl。（DC Javascript：语言精粹。</p>
 <p>首先，每个JS是一门基于原型继承的面向对象的语言。<br>里面数组是对象、函数是对象、“对象”当然还是对象。而且每个对象都有一个internal slot[[prototype]],这才是原型链连接起来的关键。诚然，我们可以为一个对象设置prototype property,但这又怎么样呢，这只是表象；后面暗藏杀机。</p>
 <pre><code>举个例子：
 
@@ -809,7 +1007,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[学习JavaScript DOM编程艺术的心得]]></title>
       <url>/2016/06/02/domthink/</url>
-      <content type="html"><![CDATA[<p> 最近又看了一遍JS DOM编程艺术，照例来写一写读后感。</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p> 最近又看了一遍JS DOM编程艺术，照例来写一写读后感。</p>
 <p> 其实，我从中学到最深的是几个概念：1、平稳退化。当浏览器并不支持JS的时候网页的基本核心功能是还可以用的；2、逐渐增强。在原始的信息层上用其他层去增加其他信息。用CSS去增加效果，用JS去添加行为。当然某些浏览器可以支持部分的js,为了使旧浏览器可以用，不至于因为某些代码挂掉。3、将结构、表现、行为分离，而且分离越大越好。</p>
 <p>  然后我学到了简单的一点关于对象检测的技术，这在运用向后兼容原则时必要的，但文章太过保守，像：document.getElementsByTagName等也在检测。或许在老古董的浏览器上有用，但现在基本无用。其次，文中说可以从：减少访问DOM及添加标记、合理合并脚本（减少请求）、合理放置脚本位置、压缩脚本等几个方面提高性能。</p>
 <p>  或许还让我了解了一点AJAX，文中显示建立了一个XMLHttpRequest对象、然后用该对象来发送请求接受响应，但是这是异步的。其中运用了事件监听，而这是其异步的根源。因为，就如同onclick、onmouseover等事件一样，该函数不会立即执行，它会加入到任务队列之中而非主线程，而JS是单线程的。必须要待主线程空了之后才有可能执行。另，setTimeout和setInterval也是添加到任务队列中。计时是相对于主线程空的计时，计时是可以中断的，待主线程有了任务它就暂停计时。</p>
@@ -838,7 +1036,7 @@ var  b = new foo();
     <entry>
       <title><![CDATA[关于我]]></title>
       <url>/about/index.html</url>
-      <content type="html"><![CDATA[<p>二十年前的某个春日的某个西南山村，一个男婴呱呱坠地了…</p>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>二十年前的某个春日的某个西南山村，一个男婴呱呱坠地了…</p>
 <p>他开始上学了。学校掩映于田畴之中，这些石头房子是学校租的。上课的时候十里八村的小伙伴们都往这里赶。某天转学回来了同学，说是武校的。那个班主任让他教他们练武，他们就稀里哗啦胡乱比划一通，管他什么动作。这是他们课间日常。放学后他走在乡间小路上，脑子空空啥也不想；或许想一些蚂蚁为什么打架的东西吧。路边的油菜花开了，蜜蜂成群飞舞，迎面是菜花的香。山村屋子上冒着白烟，远处山上一抹残阳。</p>
 <p>他性格内向，好看书。一有时间他就趴着躺着看是书，他享受这个宁静的世界，也享受知识对内心的滋养。小山村晚上的娱乐活动是看电影。那时流行武侠，像侠客行、射雕啦，另外是琼瑶的作品。男孩子们当然看完后得模仿模仿，他们会削木剑然后在田里打斗一番。玩得满身大汗。得等到家长叫吃饭他们才散去。他有时会和父亲一起上山找天麻，跑了很久他一个也没找到；他内心很愉快，喜欢下过雨后的竹林。他有时也会和母亲一起干点活，母亲总是比较坚韧又慈爱的。他还有个弟弟，虽然顽皮但是坚毅，他们度过了人生中那段艰苦又美好的日子。</p>
 <p>夏日，他在家中翻出了一个老式的音乐播放器，尽然能用。然后音乐就走进了他的世界。他凭借着一股刻苦学习的劲儿，在初中也屡次获得点奖金。他虽然歌喉不怎么样，但他热爱音乐。他通常会在周五的下午去买上一盒磁带，然后满足地回家听上很久；他觉得音乐的世界神奇极了。他有段时间迷上了英语口语就拼命的练习，在路上，在天野…甚至在晚上说梦话也是英语。</p>
@@ -848,27 +1046,27 @@ var  b = new foo();
     </entry>
     
     <entry>
-      <title><![CDATA[用图片记录生活]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[标签云]]></title>
       <url>/tags/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[timeline]]></title>
-      <url>/timeline/index.html</url>
-      <content type="html"></content>
+      <title><![CDATA[用图片记录生活]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[友情链接]]></title>
       <url>/links/index.html</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[timeline]]></title>
+      <url>/timeline/index.html</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
     </entry>
     
   

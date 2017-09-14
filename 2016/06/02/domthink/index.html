@@ -2,13 +2,7 @@
 <html style="display: none;" lang="zh">
     <head>
     <meta charset="utf-8">
-    <!--
-        © Material Theme
-        https://github.com/viosey/hexo-theme-material
-        Version: 1.4.0 -->
     <script>window.materialVersion = "1.4.0"</script>
-
-    <!-- Title -->
     
     <title>
         
@@ -103,7 +97,7 @@
 
     <!-- Import CSS & jQuery -->
     
-        <style id="css/material.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("css/material.min.css","/css/material.min.css?fJTiM/K1J3dWIruo3pxtAw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
+        <style id="css/material.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("css/material.min.css","/css/material.min.css?5xdjvlznaE+norRZPCAv1w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
         <style id="css/style.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("css/style.min.css","/css/style.min.css?oCSEO3ST+aEypEwttTDI9g==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
         
         
@@ -431,7 +425,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p> 最近又看了一遍JS DOM编程艺术，照例来写一写读后感。</p>
+        <script src="\assets\js\APlayer.min.js"> </script><p> 最近又看了一遍JS DOM编程艺术，照例来写一写读后感。</p>
 <p> 其实，我从中学到最深的是几个概念：1、平稳退化。当浏览器并不支持JS的时候网页的基本核心功能是还可以用的；2、逐渐增强。在原始的信息层上用其他层去增加其他信息。用CSS去增加效果，用JS去添加行为。当然某些浏览器可以支持部分的js,为了使旧浏览器可以用，不至于因为某些代码挂掉。3、将结构、表现、行为分离，而且分离越大越好。</p>
 <p>  然后我学到了简单的一点关于对象检测的技术，这在运用向后兼容原则时必要的，但文章太过保守，像：document.getElementsByTagName等也在检测。或许在老古董的浏览器上有用，但现在基本无用。其次，文中说可以从：减少访问DOM及添加标记、合理合并脚本（减少请求）、合理放置脚本位置、压缩脚本等几个方面提高性能。</p>
 <p>  或许还让我了解了一点AJAX，文中显示建立了一个XMLHttpRequest对象、然后用该对象来发送请求接受响应，但是这是异步的。其中运用了事件监听，而这是其异步的根源。因为，就如同onclick、onmouseover等事件一样，该函数不会立即执行，它会加入到任务队列之中而非主线程，而JS是单线程的。必须要待主线程空了之后才有可能执行。另，setTimeout和setInterval也是添加到任务队列中。计时是相对于主线程空的计时，计时是可以中断的，待主线程有了任务它就暂停计时。</p>
@@ -554,7 +548,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/11/">十一月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/08/">八月 2016<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/06/">六月 2016<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/11/">十一月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/08/">八月 2016<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/06/">六月 2016<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -572,7 +566,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/JS/">JS<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/文学/">文学<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/编程/">编程<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/随想/">随想<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/随笔/">随笔<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/音乐/">音乐<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/JS/">JS<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/categories/JS高级程序设计/">JS高级程序设计<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/文学/">文学<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/编程/">编程<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/随想/">随想<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/随笔/">随笔<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/音乐/">音乐<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -636,7 +630,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">17</span>
+                <span class="sidebar-badge">21</span>
             </a>
         </li>
         
