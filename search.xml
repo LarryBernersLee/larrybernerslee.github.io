@@ -1046,12 +1046,6 @@ var  b = new foo();
     </entry>
     
     <entry>
-      <title><![CDATA[标签云]]></title>
-      <url>/tags/index.html</url>
-      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[用图片记录生活]]></title>
       <url>/gallery/index.html</url>
       <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
@@ -1060,6 +1054,12 @@ var  b = new foo();
     <entry>
       <title><![CDATA[友情链接]]></title>
       <url>/links/index.html</url>
+      <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[标签云]]></title>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script>]]></content>
     </entry>
     
