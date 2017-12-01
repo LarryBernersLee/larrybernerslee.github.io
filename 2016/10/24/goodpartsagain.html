@@ -6,7 +6,7 @@
     
     <title>
         
-            JS语言精粹读后体会 | 
+            重读JS语言精粹 | 
         
         落花水舍
     </title>
@@ -59,18 +59,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://larrybernerslee.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="JS语言精粹读后体会 | 落花水舍">
+    <meta property="og:title" content="重读JS语言精粹 | 落花水舍">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="我的个人历程、学习、优质资源分享的个人博客">
     <meta property="og:article:tag" content="JS语言精粹"> 
 
     
-        <meta property="article:published_time" content="Wed Sep 07 2016 10:00:00 GMT+0800" />
-        <meta property="article:modified_time" content="Tue Aug 01 2017 20:23:56 GMT+0800" />
+        <meta property="article:published_time" content="Mon Oct 24 2016 16:57:00 GMT+0800" />
+        <meta property="article:modified_time" content="Wed Oct 11 2017 17:06:32 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="JS语言精粹读后体会 | 落花水舍">
+    <meta name="twitter:title" content="重读JS语言精粹 | 落花水舍">
     <meta name="twitter:description" content="我的个人历程、学习、优质资源分享的个人博客">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -78,7 +78,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://larrybernerslee.github.io/2016/09/07/JS-goodparts.html" />
+        <link rel="canonical" href="https://larrybernerslee.github.io/2016/10/24/goodpartsagain.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -286,7 +286,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一"><span class="post-toc-number">1.</span> <span class="post-toc-text">一</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二"><span class="post-toc-number">2.</span> <span class="post-toc-text">二</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#三"><span class="post-toc-number">3.</span> <span class="post-toc-text">三</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#基本问题"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">基本问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#原型链问题"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">原型链问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#减少全局变量污染"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">减少全局变量污染</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#四"><span class="post-toc-number">4.</span> <span class="post-toc-text">四</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#函数"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">函数</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#记忆"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">记忆</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#五"><span class="post-toc-number">5.</span> <span class="post-toc-text">五</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#方法"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">方法</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前面的话"><span class="post-toc-number">1.</span> <span class="post-toc-text">前面的话</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#第一章"><span class="post-toc-number">2.</span> <span class="post-toc-text">第一章</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#为何要使用JS？"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">为何要使用JS？</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JS的特点"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">JS的特点</span></a></li></ol></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -311,11 +311,20 @@
                 
     <!-- Paradox Post Header -->
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/tec.png)">
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
     
             <p class="article-headline-p">
-                JS语言精粹读后体会
+                重读JS语言精粹
             </p>
         </div>
 
@@ -334,7 +343,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>LI Liangmin</strong>
-        <span>9月 07, 2016</span>
+        <span>10月 24, 2016</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -374,7 +383,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=JS语言精粹读后体会&url=https://larrybernerslee.github.io/2016/09/07/JS-goodparts.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=重读JS语言精粹&url=https://larrybernerslee.github.io/2016/10/24/goodpartsagain.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -386,7 +395,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://larrybernerslee.github.io/2016/09/07/JS-goodparts.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://larrybernerslee.github.io/2016/10/24/goodpartsagain.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -395,7 +404,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=https://larrybernerslee.github.io/2016/09/07/JS-goodparts.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://larrybernerslee.github.io/2016/10/24/goodpartsagain.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -407,7 +416,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=落花水舍&title=JS语言精粹读后体会&summary=我的个人历程、学习、优质资源分享的个人博客&pics=https://larrybernerslee.github.io/img/favicon.png&url=https://larrybernerslee.github.io/2016/09/07/JS-goodparts.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=落花水舍&title=重读JS语言精粹&summary=我的个人历程、学习、优质资源分享的个人博客&pics=https://larrybernerslee.github.io/img/favicon.png&url=https://larrybernerslee.github.io/2016/10/24/goodpartsagain.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -425,141 +434,9 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <script src="\assets\js\APlayer.min.js"> </script><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>先说说JS是容易被误解的语言的观点。从名字上来看，”Java”这似乎暗示着这门语言与Java的关系；好像这门语言是Java的子集，或比Java弱。但实际与Java并无关系，如果说非要有关系，那可以说说一点八卦。当年Netscape确实为了让它快速发展，与Sun公司有过合作；其中为了借大热的Java东风，改名Javascript(原来叫做Livescript).JS第一版仅仅用了10天，未经打磨就广泛使用至今(什么是”网红”，这才是”网红”)。JS不可避免的有许多设计失误，比如全局变量的设计模式。标准的出现是晚于JS的，而且标准也并不”标准”，这导致了许多滥用。由于JS通常是用在web的，从而被认为只能用于浏览器，但它却可以用在服务器等地方的。它的语法类C，但实际上是”披着C外衣的Lisp”，是一种面向对象的函数式编程语言。与传统的面向对象的语言相比，它不是基于类的继承，而是基于原型的继承。</p>
-<p>公司是不会让人使用语言的每个特性的，我们要使用那部分最可靠、可维护、方便阅读的成熟的子集。</p>
-<p>为什么要使用JS？一方面是没有选择；另一方面是这门语言本身有 它自身的优雅、灵活的地方，具有极强的表达能力。</p>
-<p> DC认为JS有许多优秀的想法：函数、弱类型、动态对象、字面量的对象表示法。糟糕的想法是：基于全局变量的编程模式。JS是披着C外衣的Lisp(基于lambda演算的语言，与人工智能极为相关)。<br> 强类型语言可以在编译阶段找到程序的类型错误，弱类型做不到；但通常类型错误不是最主要的问题。弱类型可以让人不必疲于应对造型系统。<br> 对象的字面量表示法很好用，DC也借鉴到了JSON中作为一种代替XML通信的数据传输格式。JS的连接单元是基于全局变量的。编译单元的顶级变量会到全局对象这个公共命名空间。</p>
-<hr>
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>这章主要讲语法，DC使用了表示形式语法的巴克斯范式图，这的确比语言来得准确简洁。我只想表达一个问题：表达式与表达式语句的关系。因为其他问题很明白。</p>
-<p>从DC的巴科斯范式图上大致可以认为，表达式是比表达式语句宽泛的。DC的子集中表达式语句是表达式的真子集。</p>
-<p>表达式语句主要用于单个或多个标识符赋值、函数或方法调用、删除对象的属性，语法开头是标识符。</p>
-<p>表达式：字面量、标识符、加上圆括号的表达式、prefix+expression、expression+infix+expression、expression+”?”+expression+”:”+expression、expression调用、expressio属性提取、new expression 调用、delete + expression+refinement.<br>具体的巴科斯范式图我就不画了，详见JS语言精粹。</p>
-<hr>
-<h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><h3 id="基本问题"><a href="#基本问题" class="headerlink" title="基本问题"></a>基本问题</h3><p>JS的数据类型（不是数据结构）分：简单数据类型（undefined\null\boolean\string\number\symbol）、复杂数据类型(object)</p>
-<p>对象是可变的键值对的集合，最关键是对象是无类型（class-free）的，也就是说对于新的属性值类型没有要求。属性名可以是name(标识符)、string(包括空字符串)，很适合各类数据管理。最牛逼的机制是对象之间的非传统意义上的继承或是说委托更好一些；可以减少对象初始化的时间和内存。而且这是一种不同于类的新的编程思路。</p>
-<p>对象的字面量表示法的属性名类型是字符串，虽然有时候输入的可能并不是字符串，但实际上是被转为了字符串；但若不符合标识符规则时就要显式的使用字符串。这在检索时会表现出来。对象查询属性时若找不到（包括原型链）返回undefined。可以使用”[]”、”.”来获得，符合name规范时使用点访问法；其余使用[]访问法。若已有属性会被覆盖，若不含属性可以新建属性。</p>
-<p>对象在堆内存中不会被复制，复制的是对象的引用。所以传递的函数、数组等都是引用而已。</p>
-<h3 id="原型链问题"><a href="#原型链问题" class="headerlink" title="原型链问题"></a>原型链问题</h3><p>  原型链是一种内部机制，我在我得第一篇博客已经表达过这个问题。就算根本不设置也会存在。对象有设置对象原型的方法DC原来提出有:</p>
-<pre><code>            if ( typeof Object.beget !== &quot;undefined&quot;) {
-                  Object.create = function (obj) {
-                  function F () {}
-                  F.prototype = obj;
-                 return new F();    
-                  } 
-            } 
-</code></pre><p> 另外，必须指出一下问题：使用返回的new&nbsp;F()的内部原型链由F.prototype更新。原型关系是一种动态关系，原型链中更新的时候，查找时会对其他立即显示。对象属性的查找先从对象开始，然后会向原型链中查找。可以使用typeof来大致做一下过滤。<br> 可以使用for/in语句来枚举对象的属性，但不能保证出来的顺序；同时还会枚举原型链的。可使typeOf和obj.hasOwnProperty()来过滤。如：</p>
-<pre><code>         for （ var key in obj ） {
-                if (obj.hasOwnProperty(key)) {
-                       if ( typeof key !==&quot;function&quot;) {
-                                //代码 
-                        }
-
-                 }
-         }
-</code></pre><p>可以使用delete来删除对象的属性，而不会修改原型链</p>
-<h3 id="减少全局变量污染"><a href="#减少全局变量污染" class="headerlink" title="减少全局变量污染"></a>减少全局变量污染</h3><p> 由于JS没有连接器，编译单元的顶级变量会出在全局变量中。为了减少变量污染，可以一个公共的接口来包含全局资源或使用闭包（与词法作用域相关）。</p>
-<hr>
-<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p>函数是对象，它与其它对象唯一的不同是它可以调用。函数可实现：代码复用、信息隐藏、代码组合调用。建立函数时会建立：上下文、调用函数的代码。每个函数（除Function.prototype）都会有一个原型对象。</p>
-<pre><code>function foo ( ) {
-     //code
-}
-  foo.prototype = {constructor:this}; 
-</code></pre><p>它必有一个foo.prototype对象，而且这是显含的。函数字面量属于字面量，也就属于表达式的范畴。从而可以使用表达式的地方就可以使用函数字面量。</p>
-<p>JS函数的参数是按值传递的。它不会检查传入实参的类型、个数；若实参少于形参实参函数调用时的形参值为undefined.每个函数会this,this在函数执行时才会确定，与函数的调用方式相关（与动态作用域有某种相似）。调用方式分为：方法调用、函数调用、构造器调用、apply调用。</p>
-<p>方法调用：也就是说一个函数为某个对象的属性值。那么函数调用时的this到底是哪个？   我要再次强调，对象会有自己默认的原型链，同时我们可以设置对象的prototype属性，但这个属性与内部的原型链相比很弱，对象的”继承”或更确切的说是委托是基于内部原型链的。</p>
-<pre><code> var a = {};
-   var b = {&quot;name&quot;:&quot;name&quot;};
-    a.prototype = b;
-   console.log(a.name)    //undefined
-
- Object.setPrototypeOf(a,b);
- console.log(a.name)   //&quot;name&quot;
-</code></pre><p>开始，我直接设置prototype属性，然后以为通过对象的继承可以访问到对象b中的name;事实是：此时a与b的原型链链接到了Object.prototype。接着，我真正修改了原型链，故可以访问到name属性。</p>
-<p>那么,这个表面的prototype有何用？   前文提到函数（除Function.prototype）总会有一个对象与之对应。若我建立一个用函数建立一个对象的话，就会有用。新建的对象的原型链中的上一环为构造函数的prototype对象。</p>
-<pre><code>function foo () {}
-//那么一定有一个foo.prototype对象。
-var  b = new foo();
-该对象的原型链中就会有 b 的存在
-  foo.prototype.isPrototypeOf(b) //true
-</code></pre><p> 其三，一般函数的原型链中不含prototype对象。但Function.prototype为function(){},且位于Function的原型链中。<br>   <code>Function.prototype.isPrototypeOf(Function)        //true.</code></p>
-<p>  回到刚才的问题，方法调用函数时，对应的this为何值。我直接给出结论，我认为是：可以直接查找到方法的那个对象。直接上代码。</p>
-<pre><code>   var a = {&quot;a&quot;:&quot;a&quot;};
-           var b = {&quot;b&quot;:&quot;b&quot;};
-           var c = {&quot;c&quot;:&quot;c&quot;,
-                    &quot;show&quot;:function(){
-                        return this;
-                    }
-                };
-            Object.setPrototypeOf(b,c);
-            Object.setPrototypeOf(a,b);   
-        //现在原型链从a开始到b到c到Object.prototype.
-
-             a.show();         //对象a
-             b.show();        //对象b
-
-
-      //Function的例子
-
-        Function.prototype.method = function (name,func) {
-               this.prototype[name] = func;
-                 return this; 
-   };
-           //  this与调用方式有关
-</code></pre><p>再有：</p>
-<pre><code>  Function.prototype  //    function () {}
-    Function.protoype.demo = function () {
-                 console.log(this); 
- };
-
-   //可以通过Function这个函数访问到demo方法，
-
-       Function.demo()        // function    Function() { [native code] }
-
-        Function.prototype.demo()    //  function () {}
-</code></pre><p> 所以，不是方法在那个对象中this就是哪个。</p>
-<p> 函数调用的时候的this值  直接调用函数是this是全局对象而非该函数的外围的this值，ES6中有语法糖来处理这个问题。<br> 构造函数模式的this   new + 构造函数会形成一个对象，这里忽略其他细节；只讲this值，这时的this是新建立的那个对象</p>
-<pre><code>   function foo (name) {
-                    this.name = name;
-  }
-
-     var obj = new foo ();
-
-  //也就是说foo执行时的this是obj,从而才有给obj添加name属性的可能
-</code></pre><p>构造函数与一般函数没有区别，但是若一个函数建立的目的是用于建立对象，应当把其首字母大写；否则直接调用可能会给全局对象添加属性。<br>apply调用模式     函数是对象，所以可以有方法，apply/call就是方法。伪代码：function.apply(this,argumnets)，function.call(this,p1,p1,p1)。</p>
-<h3 id="记忆"><a href="#记忆" class="headerlink" title="记忆"></a>记忆</h3><p> 记忆这种优化手段真是让人兴奋，它可以大大减少计算的工作量，例如在阶乘、裴波那契数列的计算中，若不采用优化，那浏览器甚至算不出来。采用优化后秒算出结果。下面是通用的记忆器</p>
-<pre><code>    function memoizer (memo,formula) {
-            var recur = function (n) {
-                     var result = memo[n];
-                    if ( typeof result !== &quot;number&quot;) {
-
-                         result = formula();
-                    memo[n] = result;
-               }
-                return result;   
-
-            }
-        return recur;
-    }
-</code></pre><p>JS的函数化很强大，这种方法在一个个函数的基础上差异化继承，也可以增强；也是建立部件的基础。实现对象与它的功能模块的扩充。建立对象与方法之间的松散耦合。</p>
-<pre><code>  var o = {name:&quot;demo&quot;};
-     var enhance = function (o) {
-                 var that = o;
-                  if ( !o.name) {
-                          o.name = &quot;initial&quot;; 
-           } 
-                  if ( !o.get_name) {
-                           o.get_name = function () {
-                                  return o.name;    
-                                    };              
-          }
-            return that;
- };
-     var  b =  enhance(o);
-</code></pre><hr>
-<h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p><strong>数组方法</strong><br><em>模拟队列</em>的操作：push()/shift();unshift()/pop();<em>模拟栈操作</em>：push()/pop(); push()返回增加后的长度、unshift也是。pop和shift返回项值。concat()在已有的数组基础上返回一个数组，即是传入的是数组，它也会将数组变成单一的参数。reverse（）没有用，join()将数组以某种分隔符的形式返回字符串。字符串的split可返回一个数组。<br> slice在字符串及数组上都会有，slice(n,n+p),p是复制数目。数组会得到一个数组，即是是空数组，这个方法可以处理负数。字符的subString()可以复制，但不支持数组，不建议用。splice()返回数组，会影响原来的数组，可以修改、添加、插入项与数组中，但效率不高。sort()默认基于编码大小，可以认为传入函数方便比较。</p>
-<p><strong>Number的方法</strong><br>toString()。该方法将数字以基于几进制的形式输出。实现起来有bug.若是整数会出错(下面几个方法也是这样)，但若是浮点数形式没问题。存在变量中也不会有问题，故最好现存于变量中，如：23.toFixed(3) 会出错，而23..toFixed(3)就可使用。    toExponential()以科学计数法输出字符串，可指定小数点后的位数（0-20位）。有数字直接使用方法的可能。<br> toFixed()将数字指定小数点后的位数输出。     toPrecision()指定总的位数。</p>
-<p><strong>正则表达式方法</strong><br>test()/exec();test()不建议使用g-flag。exec()好用，但慢（捕获较慢）。exec()返回一个数组，index0为匹配项，后面一次是捕获组、index、input。不用全局标识仅仅匹配第一次的。g标识下会一直向下，但只是每次匹配一项。</p>
-<p><strong>字符串的操作</strong><br>字符串是最常见的操作。charAt()/charCodeAt()/String.fromCharCode()得字符串。concat()拼接。建议使用“+”。     查询：indexOf(text,position)/lastIndexOf()指定字符串及开始位置，返回位置；查询不到返回-1。search(exp)使用正则表达式，忽略g-flag,返回位置。<br>match()会返回一个数组，正则表达式中没有g同没有g的exec()方法；含g会有返回项各匹配项。replace(a，b)中a可以是字符串、正则表达式。b可以是函数、可以是字符串。同样，若不带g只会匹配第一项。为字符串时$有特殊含义。使用函数时，传入第一个参数是匹配项，然后是捕获组。<br>split()可以是字符串、正则表达式。是正则表达式时捕获组会加入数组。</p>
+        <script src="\assets\js\APlayer.min.js"> </script><h2 id="前面的话"><a href="#前面的话" class="headerlink" title="前面的话"></a>前面的话</h2><p>时间流逝，眼看又是一年。我觉得是时候重新审视自己了：勿以往之不谏，识来者之可追。是时候改变自己，重新确立目标，实现目标了。那就先从JS语言精粹开始吧。</p>
+<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h3 id="为何要使用JS？"><a href="#为何要使用JS？" class="headerlink" title="为何要使用JS？"></a>为何要使用JS？</h3><p>其实无它，因为做前端开发，必须要用。JS用起来还挺灵活好用的，好像ES5之后变得严谨了许多。JS难免要操作DOM的，DOM的操作是同步的，而且兼容性上问题多多，搞得好像很多都是JS问题似的。<br>JS是面向对象的，但与传统的面向对象又不同，需要认真了解，直接套用Ｃ的编程经验难免会出问题。<br>JS开始之初必然是易用的，不然也不会快速流行。天下武功唯快不破。也由于缺乏打磨，存在许多问题。JS借鉴了许多语言的优点。</p>
+<h3 id="JS的特点"><a href="#JS的特点" class="headerlink" title="JS的特点"></a>JS的特点</h3><p>JS有自己的    </p>
 
     
 
@@ -579,7 +456,7 @@ var  b = new foo();
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2016/10/16/domain.html" id="post_nav-newer" class="prev-content">
+        <a href="/2016/10/24/this.html" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -593,7 +470,7 @@ var  b = new foo();
 
     <!-- Next Nav -->
     
-        <a href="/2016/08/27/dom-info.html" id="post_nav-older" class="next-content">
+        <a href="/2016/10/16/domain.html" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
